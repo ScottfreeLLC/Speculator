@@ -17,5 +17,5 @@ def megamillions():
 five_balls, power_ball = powerball()
 print("Power Ball Numbers %s %s" % (five_balls, power_ball))
 
-five_balls, mega_ball = powerball()
+five_balls, mega_ball = megamillions()
 print("Mega Millions Numbers %s %s" % (five_balls, mega_ball))
