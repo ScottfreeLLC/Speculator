@@ -56,7 +56,7 @@ if simulate_data:
     df = pd.DataFrame({'date': dates, 'close': close_values})
 else:
     symbol = 'TSLA'
-    path = '/Users/markconway/Projects/alphapy-root/alphapy-markets/Projects/Shannon/data'
+    path = './data'
     extension = 'csv'
     os.chdir(path)
     files = glob.glob('*.{}'.format(extension))
